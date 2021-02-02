@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.admin import ModelAdmin
 from trumbowyg.widgets import TrumbowygWidget
-from .models import Post, Category
+from .models import Post, Category, Question
 from django.forms import ModelForm
 
 
@@ -19,3 +19,5 @@ class PostAdmin(admin.ModelAdmin):
 admin.site.register(Category)
 
 admin.site.register(Post, PostAdmin)
+
+admin.site.register(Question)

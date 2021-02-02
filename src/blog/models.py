@@ -24,5 +24,14 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
-        
 
+class Question(models.Model):
+    question = models.CharField(max_length = 5, verbose_name='Вопрос')
+    answer = models.TextField(blank = True, verbose_name='Ответ')
+
+    class Meta:
+        verbose_name = 'Вопросы'
+        verbose_name_plural = 'Вопросы'
+    
+    def __str__(self):
+        return self.question
