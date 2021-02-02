@@ -1,0 +1,294 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: url("https://elibot.info/img/img-info.png") no-repeat;
+    /*background-size: cover;*/
+    /*background-position: center;*/
+
+    color: black;
+}
+h5{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+header .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+header .top .logo{
+    margin-right: 20px;
+}
+header h2{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header .top ul{
+    display: flex;
+}
+header .top li{
+    list-style: none;
+    padding: 0 15px;
+}
+header .links a{
+    color: black;
+    text-decoration: none;
+}
+header .bottom{
+    text-align: left;
+    padding: 150px 0 180px;
+}
+header .bottom h2{
+    font-size: 60px;
+}
+header .bottom p{
+    font-size: 26px;
+}
+.second .top h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 20px 0 60px;
+}
+.second .health{
+    display: flex;
+}
+.second h3{
+    padding-bottom: 5px;
+}
+.second .health .left {
+    padding-right: 10px;
+    text-align: right;
+}
+.second .health img{
+    width: 100px;
+}
+.second .middle img{
+    width: 100%;
+}
+.third h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.third .top{
+    text-align: center;
+    padding: 80px 0 100px;
+}
+.third .pink {
+    display: flex;
+    justify-content: flex-end;
+}
+.third .pink p{
+    background: hotpink;
+    padding: 20px;
+    text-align: right;
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.third .blue {
+    background: deepskyblue;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.third .link {
+    text-align: center;
+}
+.third .link a{
+    background: deepskyblue;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+.fourth .title h5{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 70px 0 90px;
+}
+.fourth .left .top {
+    background: orangered;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 200px;
+}
+.fourth .left .bottom .img{
+    text-align: center;
+}
+.fourth .bottom .left{
+    background: #4adfff;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+}
+.fourth .bottom {
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+.fourth .bottom .right{
+     background: #ec4bff;
+     color: white;
+     padding: 30px;
+     border-radius: 20px;
+     width: 350px;
+    text-align: center;
+    margin-top: 50px;
+ }
+.fourth .left .top .img{
+    text-align: center;
+}
+.fourth .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.fourth .top img{
+    width: 50px;
+}
+.fourth img{
+    width: 50px;
+}
+.fourth .mainRight img{
+    width: 100%;
+}
+.fourth .link{
+    text-align: center;
+}
+.fourth .link a{
+    background: deepskyblue;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+.fifth{
+    background: #a622ff;
+}
+.fifth .title{
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+}
+.fifth .title h4{
+    font-size: 50px;
+    font-weight: 600;
+}
+.sixth .title {
+    text-align: center;
+    padding: 70px 0 90px;
+}
+.sixth .title h5{
+    font-size: 50px;
+    font-weight: 600;
+}
+.sixth .card{
+    width: 100%;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.sixth .card img{
+    width: 70px;
+}
+.seventh {
+    padding: 40px 0;
+}
+.seventh .title {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.seventh .title h5{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 70px;
+}
+.seventh .card {
+    text-align: center;
+    border: none;
+}
+.seventh .card img{
+    width: 100%;
+}
+.eighth .title h5{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    padding: 70px 0 90px;
+}
+.eighth .img img{
+    width: 100%;
+}
+.eighth .row{
+    display: flex;
+    align-items: center;
+}
+.ninth .title h5{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.ninth .row{
+    display: flex;
+    align-items: center;
+}
+.tenth .title {
+    text-align: center;
+    padding: 50px 0 70px;
+}
+.tenth .title h5{
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.tenth .row {
+    display: flex;
+    align-items: center;
+}
+.tenth .link{
+    text-align: center;
+}
+.tenth .link a{
+    background: deepskyblue;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background: #a622ff;
+    color: white;
+}
+footer .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+footer .topEl{
+    text-align: center;
+}
+footer .top .links{
+    display: flex;
+
+}
+footer .top .links a {
+    color: white;
+    padding:  0 20px;
+    text-decoration: none;
+}
+footer .middle .links {
+    display: flex;
+    justify-content: center;
+}
+footer .bottom{
+    display: flex;
+    justify-content: space-around;
+}
