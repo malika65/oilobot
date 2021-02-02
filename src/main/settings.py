@@ -77,8 +77,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'oilobot',
-        'USER': 'maks',
-        'PASSWORD': 'maks123',
+        'USER': 'oilouser',
+        'PASSWORD': 'oilopass',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     },
