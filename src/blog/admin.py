@@ -16,18 +16,6 @@ class PostAdminForm(ModelForm):
 
 class PostAdmin(admin.ModelAdmin):
     form = PostAdminForm
-
-
-
-
-# @admin.register(Post)
-# class PostModelAdmin(TranslationAdmin):
-#     list_display = ("title", "body")
-
-
-# @admin.register(Category)
-# class CategoryAdmin(TranslationAdmin):
-#     list_display = ("title")
     
 
 admin.site.register(Category)
