@@ -41,18 +41,6 @@ INSTALLED_APPS = [
     'blog',
 ]
 
-TINYMCE_JS_URL = 'http://debug.example.org/tiny_mce/tiny_mce_src.js'
-TINYMCE_DEFAULT_CONFIG = {
-    'plugins': "table,spellchecker,paste,searchreplace",
-    'theme': "advanced",
-    'cleanup_on_startup': True,
-    'custom_undo_redo_levels': 10,
-}
-TINYMCE_SPELLCHECKER = True
-TINYMCE_COMPRESSOR = True
-
-TRUMBOWYG_THUMBNAIL_SIZE = (1920, 1080)
-TRUMBOWYG_SEMANTIC = 'true'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'

@@ -6,7 +6,7 @@ app_name = 'posts'
 
 urlpatterns = [
     path('<str:lang>', index),
-    path('questions/', questions_view),
+    path('questions/<str:lang>', questions_view),
     path('answer/<int:answer_id>/<str:lang>', answer_view),
     path('post/<str:lang>',post_view,name='post'),
     path('category/<str:lang>',category_view,name='category'),
