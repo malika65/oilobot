@@ -2,8 +2,8 @@ from django.shortcuts import render
 from .models import Question, Post, Category
 
 
-def questions_view(request):
-    return render(request, 'questions.html', {'questions':Question.objects.all()})
+def questions_view(request, lang):
+    return render(request, 'questions.html', {'questions':Question.objects.all(), 'lang': lang})
 
 def index(request, lang):
     if lang == 'ru':

@@ -4,7 +4,7 @@ from django.urls import path
 
 urlpatterns = [
     path('<str:lang>', index),
-    path('questions/', questions_view),
+    path('questions/<str:lang>', questions_view),
     path('answer/<int:answer_id>/<str:lang>', answer_view),
     path('post/',post_view,name='post'),
     path('category/',category_view,name='category'),

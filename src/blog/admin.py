@@ -2,8 +2,6 @@ from django.contrib import admin
 from django.contrib.admin import ModelAdmin
 # from trumbowyg.widgets import TrumbowygWidget
 from .models import Post, Category, Question
-# from django.forms import ModelForm
-from modeltranslation.admin import TranslationAdmin
 
 
 # class PostForm(ModelForm):
