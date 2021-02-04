@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from .models import Question
 
-# Create your views here.
 
 def questions_view(request):
     return render(request, 'questions.html', {'questions':Question.objects.all()})
