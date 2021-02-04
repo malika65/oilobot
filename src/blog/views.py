@@ -16,20 +16,31 @@ def answer_view(request, answer_id, lang):
         return render(request, 'answer.html', {'answer':answer.answer_kg, 'lang':'ru'})
     return render(request, 'answer.html', {'answer':answer.answer_kg, 'lang':'ru'})
 
-def post_view(request):
+def post_view(request, lang):
     posts = Post.objects.all()
+    if lang == 'kg':
+        return render(request, 'post_kg.html', context = {'posts':posts})
+    
     return render(request, 'post.html', context = {'posts':posts})
 
-def category_view(request):
+def category_view(request, lang):
     categories = Category.objects.all()
+    if lang == 'kg':
+        return render(request, 'category_kg.html', context = {'categories':categories})
+    
     return render(request, 'category.html', context = {'categories':categories})
  
-def post_details(request,post_id):
+def post_details(request,post_id, lang):
     posts = Post.objects.get(id=post_id)
+    if lang == 'kg':
+        return render(request, 'post_details_kg.html', context = {'posts':posts})
+    
     return render(request, 'post_details.html', context = {'posts':posts})
 
 
-def category_details(request, cat_id):
+def category_details(request, cat_id, lang):
     posts = Post.objects.filter(category__id = cat_id)
+    if lang == 'kg':
+        return render(request, 'post_kg.html', context = {'posts':posts})
     
     return render(request, "post.html", context = {"posts":posts}) 
