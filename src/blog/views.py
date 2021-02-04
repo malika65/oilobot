@@ -12,6 +12,9 @@ def index(request, lang):
         return render(request, 'index_ru.html')
     return render(request, 'index_kg.html')
 
+def index_kg(request):
+    return render(request, 'index_kg.html')
+
 def answer_view(request, answer_id, lang):
     answer = Question.objects.get(id=answer_id)
     if lang == 'ru':

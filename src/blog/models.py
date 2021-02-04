@@ -32,10 +32,10 @@ class Post(models.Model):
     #     return self.title_ru
 
 class Question(models.Model):
-    question_ru = models.CharField(max_length = 5, verbose_name='Вопрос')
+    question_ru = models.CharField(max_length =50, verbose_name='Вопрос')
     answer_ru = models.TextField(blank = True, verbose_name='Ответ')
 
-    question_kg = models.CharField(max_length = 5, verbose_name='Суроо')
+    question_kg = models.CharField(max_length =50, verbose_name='Суроо')
     answer_kg = models.TextField(blank = True, verbose_name='Жооп')
 
     class Meta:
