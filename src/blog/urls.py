@@ -1,9 +1,9 @@
 from django.contrib import admin
-from django.urls import path,include
-from .views import index
+from .views import questions_view, answer_view, index
+from django.urls import path
 
 urlpatterns = [
-    path('',index),
-    
-
+    path('<str:lang>', index),
+    path('questions/', questions_view),
+    path('answer/<int:answer_id>/<str:lang>', answer_view),
 ]

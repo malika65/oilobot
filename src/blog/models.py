@@ -26,12 +26,16 @@ class Post(models.Model):
         return self.title
 
 class Question(models.Model):
-    question = models.CharField(max_length = 5, verbose_name='Вопрос')
-    answer = models.TextField(blank = True, verbose_name='Ответ')
+    question_ru = models.CharField(max_length = 5, verbose_name='Вопрос')
+    answer_ru = models.TextField(blank = True, verbose_name='Ответ')
+
+    question_kg = models.CharField(max_length = 5, verbose_name='Суроо')
+    answer_kg = models.TextField(blank = True, verbose_name='Жооп')
 
     class Meta:
-        verbose_name = 'Вопросы'
+        verbose_name = 'Вопрос'
         verbose_name_plural = 'Вопросы'
     
     def __str__(self):
-        return self.question
+        return self.question_ru
+        
