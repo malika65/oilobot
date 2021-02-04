@@ -140,7 +140,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-try:
-    from main.settings_local import *
-except ImportError:
-    pass
+
