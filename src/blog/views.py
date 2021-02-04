@@ -3,24 +3,16 @@ from .models import Question
 
 # Create your views here.
 
-def questions_view_ru(request):
-    dummy = Question.objects.all()
-    questions = []
-    for i in dummy:
-        questions.append({'id':i.id, 'question':i.question_ru, 'answer':i.answer_ru})
-    return render(request, 'questions.html', {'questions':questions, 'lang':'ru'})
+def questions_view(request):
+    return render(request, 'questions.html', {'questions':Question.objects.all()})
 
-def answer_view_ru(request, answer_id):
+def index(request, lang):
+    if lang == 'ru':
+        return render(request, 'index_ru.html')
+    return render(request, 'index_kg.html')
+
+def answer_view(request, answer_id, lang):
     answer = Question.objects.get(id=answer_id)
-    return render(request, 'answer.html', {'answer':answer.answer_ru, 'lang':'ru'})
-
-def questions_view_kg(request):
-    dummy = Question.objects.all()
-    questions = []
-    for i in dummy:
-        questions.append({'id':i.id, 'question':i.question_kg, 'answer':i.answer_kg})
-    return render(request, 'questions.html', {'questions':questions, 'lang':'kg'})
-
-def answer_view_kg(request, answer_id):
-    answer = Question.objects.get(id=answer_id)
-    return render(request, 'answer.html', {'answer':answer.answer_kg, 'lang':'kg'})
+    if lang == 'ru':
+        return render(request, 'answer.html', {'answer':answer.answer_kg, 'lang':'ru'})
+    return render(request, 'answer.html', {'answer':answer.answer_kg, 'lang':'ru'})

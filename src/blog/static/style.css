@@ -1,0 +1,485 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: url("https://elibot.info/img/bg-heder.jpg") no-repeat;
+    background-size: cover;
+    /*background-position: center;*/
+    color: white;
+    /*background: #741fab;*/
+}
+h5{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+header .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+header .top .logo{
+    display: flex;
+    align-items: center;
+}
+header .bottom .imgs {
+    text-align: center;
+}
+header .top .img{
+    padding-right: 15px;
+}
+header .top .logo h1{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header .top .logo p{
+    font-size: 14px;
+    font-weight: 600;
+}
+header .bot img{
+    width: 350px;
+}
+header h2{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header .top ul{
+    display: flex;
+}
+header .top li{
+    list-style: none;
+    padding: 0 15px;
+}
+header .links a{
+    color: white;
+    text-decoration: none;
+}
+header .bottom{
+    text-align: center;
+}
+header .bottom h2{
+    font-size: 40px;
+}
+header .bottom p{
+    font-size: 20px;
+}
+.first .top{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.first .top p{
+    color: black;
+}
+.first .top a{
+    padding-bottom: 10px;
+}
+.first .top button{
+    background: #289dfd;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 40px;
+}
+.first .bottom {
+    width: 60%;
+    margin: 0 auto;
+}
+.first .bottom p {
+    border: solid 1px #a16ee6;
+    padding: 40px;
+    border-radius: 20px;
+    color: black;
+}
+.first::after{
+    background: url("https://elibot.info/img/line.png");
+    height: 100px;
+    display: block;
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+}
+.second .top h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 20px 0 60px;
+}
+.second .health{
+    display: flex;
+}
+.second h3{
+    padding-bottom: 5px;
+}
+.second .health .left {
+    text-align: right;
+    padding: 20px 10px 20px 0;
+}
+.second .health img{
+    width: 100px;
+}
+.second .middle img{
+    width: 100%;
+}
+.third {
+    background: url("https://elibot.info/img/bg-serotonin.png") no-repeat;
+    height: 100%;
+}
+.third h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.third .top{
+    text-align: center;
+    padding: 80px 0 100px;
+}
+.third .pink {
+    display: flex;
+    justify-content: flex-end;
+}
+.third .pink p{
+    background: hotpink;
+    padding: 20px;
+    text-align: right;
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.third .blue {
+    background: deepskyblue;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.third .link {
+    text-align: center;
+    padding: 50px 0;
+}
+.third .link p{
+    padding-bottom: 15px;
+}
+.third .link .elly {
+    background: deepskyblue;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+.third::after{
+    background: url("https://elibot.info/img/line.png");
+    height: 100px;
+    display: block;
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+}
+.fourth{
+    background: url("https://elibot.info/img/bg-adrenaline.png") right no-repeat;
+    padding: 30px 0 100px;
+}
+.fourth .row{
+    display: flex;
+    align-items: center;
+}
+.fourth .title h5{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 70px 0 90px;
+}
+.fourth .left .top {
+    background: url("https://elibot.info/img/bg-help-one-yellow.svg");
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 4rem 5.5rem 4rem;
+    color: #fff;
+    text-align: center;
+}
+.fourth .left .top p{
+    outline: none;
+}
+.fourth .left .bottom .img{
+    text-align: center;
+}
+.fourth .bottom .left{
+    background: url("https://elibot.info/img/bg-help-one-blue.svg");
+    background-size: 100% 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+.fourth .bottom {
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+.fourth .bottom .right{
+     background: url("https://elibot.info/img/bg-help-one-purpule.svg");
+    background-size: 100% 100%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+     padding: 30px;
+     border-radius: 20px;
+    margin-top: 50px;
+ }
+.fourth .left .top .img{
+    text-align: center;
+}
+.fourth .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.fourth .top img{
+    width: 50px;
+}
+.fourth img{
+    width: 50px;
+}
+.fourth .mainRight .heart img{
+    width: 20%;
+}
+.fourth .mainRight img{
+    width: 100%;
+}
+.fourth .link{
+    text-align: center;
+    padding: 50px 0;
+}
+.fourth .link p{
+    padding-bottom: 20px;
+}
+.fourth .link .elly{
+    background: deepskyblue;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+.fifth{
+    background: url("https://elibot.info/img/bg-section-every.jpg");
+    background-size: cover;
+}
+.fifth .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fifth .title{
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+}
+.fifth .title h4{
+    font-size: 50px;
+    font-weight: 600;
+}
+.sixth .title {
+    text-align: center;
+    padding: 70px 0 80px;
+}
+.sixth .title h5{
+    font-size: 50px;
+    font-weight: 600;
+}
+.sixth .card{
+    width: 60%;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 0 auto 80px;
+}
+.sixth .card h5{
+    font-weight: 600;
+    padding: 20px 0;
+}
+.sixth .card img{
+    text-align: center;
+    width: 70px;
+}
+.sixth .card .img{
+    text-align: center;
+}
+.sixth::after{
+    background: url("https://elibot.info/img/line.png");
+    height: 100px;
+    display: block;
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+}
+.seventh {
+    padding: 40px 0;
+}
+.seventh .title {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.seventh .title h5{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 70px;
+}
+.seventh .card {
+    text-align: center;
+    border: none;
+}
+.seventh .card img{
+    width: 100%;
+}
+.eighth .title h5{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    padding: 70px 0 90px;
+}
+.eighth .img img{
+    width: 100%;
+}
+.eighth .row{
+    display: flex;
+    align-items: center;
+}
+.ninth{
+    /*background: url("https://elibot.info/img/bg-adrenaline.png") left no-repeat;*/
+    /*padding: 30px 0 100px;*/
+    margin: 50px 0;
+}
+.ninth .title h5{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+.ninth .ask p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.ninth .img img{
+    transform: scaleX(-1);
+}
+.ninth .heart{
+    display: flex;
+    justify-content: flex-end;
+}
+.ninth .heart img{
+    transform: scaleX(-1);
+}
+.ninth li{
+    padding: 5px 0;
+}
+.tenth .title {
+    text-align: center;
+    padding: 50px 0 70px;
+}
+.tenth .title h5{
+    font-size: 50px;
+    font-weight: 600;
+}
+.tenth .row {
+    display: flex;
+    align-items: center;
+}
+.tenth .left{
+    background: url("https://elibot.info/img/bg-help-one-purpule.svg") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.tenth .link{
+    text-align: center;
+}
+.tenth .link a{
+    background: deepskyblue;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background: url("https://elibot.info/img/bg-footer.jpg");
+    color: white;
+}
+footer .link {
+    text-align: center;
+}
+footer .link p{
+    color: black;
+}
+footer .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+footer .top .logo{
+    display: flex;
+    align-items: center;
+}
+footer .top .img{
+    padding-right: 15px;
+}
+footer .top .logo h1{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+footer .top .logo p{
+    font-size: 14px;
+    font-weight: 600;
+}
+footer .question {
+    font-size: 14px;
+}
+footer .proto{
+    text-align: center;
+    border: solid 1px white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+footer .photo img{
+    width: 50%;
+}
+footer .text {
+    width: 70%;
+    margin: 0 auto;
+}
+footer .top .links{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+footer .top .links a {
+    color: white;
+    text-decoration: none;
+    background: #289dfd;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+footer .middle .links1 {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+footer .middle .links1 a{
+    color: white;
+    padding: 0 25px;
+}
+footer .bottom{
+    display: flex;
+    justify-content: space-around;
+}
