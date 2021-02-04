@@ -3,7 +3,9 @@ from .models import Question, Post, Category
 
 
 def questions_view(request, lang):
-    return render(request, 'questions.html', {'questions':Question.objects.all(), 'lang': lang})
+    if lang == 'ru':
+        return render(request, 'questions_ru.html', {'questions':Question.objects.all(), 'lang': 'ru'})
+    return render(request, 'questions_kg.html', {'questions':Question.objects.all(), 'lang': 'kg'})
 
 def index(request, lang):
     if lang == 'ru':
