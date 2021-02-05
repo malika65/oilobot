@@ -36,11 +36,11 @@ def category_view(request, lang):
     return render(request, 'category.html', context = {'categories':categories})
  
 def post_details(request,post_id, lang):
-    posts = Post.objects.get(id=post_id)
+    post = Post.objects.get(id=post_id)
     if lang == 'kg':
-        return render(request, 'post_details_kg.html', context = {'posts':posts})
+        return render(request, 'post_details_kg.html', context = {'post':post})
     
-    return render(request, 'post_details.html', context = {'posts':posts})
+    return render(request, 'post_details.html', context = {'post':post})
 
 
 def category_details(request, cat_id, lang):
@@ -49,3 +49,4 @@ def category_details(request, cat_id, lang):
         return render(request, 'post_kg.html', context = {'posts':posts})
     
     return render(request, "post.html", context = {"posts":posts}) 
+

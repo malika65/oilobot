@@ -1,5 +1,13 @@
 from django.contrib import admin
-from .views import questions_view, answer_view, index, post_view,category_view,post_details,category_details, index_kg
+from .views import (
+    questions_view, 
+    answer_view, 
+    index, 
+    post_view,
+    category_view,
+    post_details,
+    category_details, 
+    index_kg)
 from django.urls import path
 
 app_name = 'posts'

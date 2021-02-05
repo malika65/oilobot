@@ -84,22 +84,39 @@ header .bottom p{
     padding: 20px 0;
 }
 .ninth .ask {
-    background: #289dfd;
+    background: #a622ff;
     padding: 15px 0;
+    border-radius: 20px;
+    text-align: center; 
+    margin: 10px 0;
+    color: white;
+}
+.ninth .repl {
+    background: #289dfd;
+    padding: 20px;
     border-radius: 20px;
     margin: 10px 0;
     color: white;
 }
-.ninth .ask a{
+.ninth .ask p{
     font-size: 22px;
     font-weight: 600;
     text-align: center;
     color: white;
-    padding: 20px;
-    text-decoration: none;
 }
-
-
+.ninth .img img{
+    transform: scaleX(-1);
+}
+.ninth .heart{
+    display: flex;
+    justify-content: flex-end;
+}
+.ninth .heart img{
+    transform: scaleX(-1);
+}
+.ninth li{
+    padding: 5px 0;
+}
 footer{
     background: url("https://elibot.info/img/bg-footer.jpg") no-repeat center;
     background-size: cover;
@@ -183,7 +200,4 @@ footer .middle .links1 a{
 footer .bottom{
     display: flex;
     justify-content: space-around;
-}
-h1 {
-    margin: auto;
 }

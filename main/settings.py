@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_quill',
     'blog.apps.BlogConfig',
 ]
 
@@ -139,4 +140,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-
+DATA_UPLOAD_MAX_MEMORY_SIZE = 5242880

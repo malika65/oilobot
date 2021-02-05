@@ -1,4 +1,5 @@
 from django.db import models
+from django_quill.fields import QuillField
 
 # Create your models here.
 
@@ -10,16 +11,14 @@ class Category(models.Model):
         verbose_name = 'Категория'
         verbose_name_plural = 'Категории'
 
-    # def __str__(self):
-    #     return self.title_ru
+    def __str__(self):
+        return self.title_ru
 
 class Post(models.Model):
     title_ru = models.CharField(max_length=200,verbose_name = 'Заголовок на русском')
     title_kg = models.CharField(max_length=200,verbose_name = 'Заголовок на кыргызском')
-    body_ru = models.TextField(max_length=1500, verbose_name = 'Тело поста на русском')
-    body_kg = models.TextField(max_length=1500, verbose_name = 'Тело поста на кыргызском')
-    img = models.ImageField(null=True,blank=True)
-
+    body_ru = QuillField(verbose_name = 'Тело поста на русском')
+    body_kg = QuillField(verbose_name = 'Тело поста на кыргызком')
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
 
 
@@ -44,4 +43,8 @@ class Question(models.Model):
     
     def __str__(self):
         return self.question_ru
+
+
+
+
         
