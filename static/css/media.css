@@ -1,0 +1,210 @@
+@media(max-width: 920px) {
+    .second .health {
+        display: flex;
+        align-items: center;
+        padding: 20px 0 20px 10px;
+    }
+    .second .health .right{
+        padding: 20px 10px 20px 0;
+    }
+    .second .row{
+        display: flex;
+        align-items: center;
+    }
+    .second .row  .right img{
+        width: 70%;
+    }
+    .second .row  .left img{
+        width: 70%;
+    }
+    .second .row h3{
+        font-size: 16px;
+    }
+    .second .row p{
+        font-size: 13px;
+    }
+    .third .top{
+        padding: 0;
+    }
+    .third .row{
+        color: white;
+        padding: 30px 0;
+        display: flex;
+        align-items: center;
+    }
+    .third .left img{
+        width: 100%;
+    }
+    .fourth .left h4{
+        font-size: 14px;
+    }
+    .fourth .left p{
+        font-size: 12px;
+    }
+    .fourth .title h5{
+        padding: 10px 0 40px;
+    }
+    .fifth .sofa img{
+        width: 100%;
+    }
+    .eighth .title h5{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .tenth .title h5{
+        font-size: 40px;
+    }
+    footer .top .logo {
+        display: none;
+    }
+    footer .link{
+        padding: 20px 0;
+    }
+    footer .link p{
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 720px) {
+    header .top ul {
+        display: flex;
+    }
+    header .top .logo h1 {
+        font-size: 14px;
+    }
+    header .top .logo p {
+        font-size: 12px;
+    }
+    header .top li{
+        font-size: 14px;
+        padding: 0 7px;
+    }
+    header .top ul{
+        display: flex;
+        align-items: center;
+    }
+    .first .bottom {
+        width: 100%;
+    }
+    .first .bottom p {
+        padding: 20px;
+    }
+    .second .top h2{
+        padding: 0;
+    }
+    .second .row .col-md-12{
+        display: flex;
+        justify-content: center;
+    }
+    .second .middle{
+        display: none;
+    }
+    .second .row .right img {
+        width: 100%;
+    }
+    .second .row .left img {
+        width: 100%;
+    }
+    .third .left {
+        display: none;
+    }
+    .third {
+        background: none;
+    }
+    .fourth .mainRight {
+        display: none;
+    }
+    .fourth .link{
+        padding: 0;
+    }
+    .fifth .sofa{
+        display: none;
+    }
+    .sixth .title {
+         padding: 20px 0;
+    }
+    .seventh .title h5 {
+        font-size: 36px;
+        padding-top: 0;
+    }
+    .eighth .title h5 {
+        padding: 0;
+    }
+    .eighth .img{
+        display: none;
+    }
+    .eighth .left{
+        text-align: center;
+    }
+    .eighth .left img{
+        padding: 10px 0;
+    }
+    .tenth .title h5 {
+        font-size: 28px;
+    }
+    .tenth .left {
+        margin-top: 0;
+    }
+    .tenth .left p{
+        font-size: 28px;
+    }
+    .tenth .title {
+        padding: 50px 0 20px;
+    }
+    .tenth .img{
+        text-align: center;
+    }
+    footer .link {
+        padding: 30px;
+    }
+    footer .top .logo{
+        display: none;
+    }
+    footer .top .links a {
+        font-size: 12px;
+        padding: 5px 5px;
+        margin: 0 2px;
+    }
+    footer .text {
+        width: 100%;
+    }
+    footer .text p{
+        font-size: 14px;
+    }
+    footer .links1 .first {
+        font-size: 14px;
+        text-align: center;
+    }
+    footer .links1 .second {
+        font-size: 14px;
+        text-align: center;
+    }
+    footer .bottom p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 520px) {
+    header .top .logo{
+        padding: 10px 0 0 10px;
+        display: inline-block;
+    }
+    header .top {
+        display: flex;
+        align-items: normal;
+    }
+    header .top .links{
+        padding-top: 40px;
+    }
+    header .top ul{
+        display: flex;
+        align-items: normal;
+    }
+    .fifth .title h4 {
+        font-size: 40px;
+    }
+    footer .top .links {
+        display: grid;
+    }
+    footer .top .links a{
+        padding: 3px 0;
+    }
+}
