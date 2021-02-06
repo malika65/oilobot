@@ -187,3 +187,7 @@ footer .bottom{
 h1 {
     margin: auto;
 }
+.card img{
+    margin: 0 auto;
+    display: flex;
+}
